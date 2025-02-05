@@ -33,7 +33,10 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/rajanmoliya/project-management.git
+   ```
+
+   ```bash
    cd project-management
    ```
 
@@ -55,21 +58,29 @@ Before you begin, ensure you have the following installed:
 
 4. **Database Setup**
 
-   ```bash
-   # Create the database
-   CREATE DATABASE project_management;
+   1. Create the database in PostgreSQL
 
-   # Run Prisma migrations
+   ```bash
+   CREATE DATABASE project_management;
+   ```
+
+   2. Run Prisma migrations
+
+   ```bash
    npx prisma migrate dev
    ```
 
 5. **Start the server**
 
-   ```bash
-   # Development mode
-   npm run dev
+   - Development mode
 
-   # Production mode
+   ```bash
+   npm run dev
+   ```
+
+   - Production mode
+
+   ```bash
    npm start
    ```
 
