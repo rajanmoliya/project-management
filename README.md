@@ -84,6 +84,14 @@ Before you begin, ensure you have the following installed:
    npm start
    ```
 
+## Demo Video (API Testing)
+
+
+
+https://github.com/user-attachments/assets/7af78c40-d8ea-4ac7-ac32-08766ba61a6a
+
+
+
 ## API Documentation
 
 ### Authentication Endpoints
